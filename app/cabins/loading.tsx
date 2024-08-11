@@ -1,9 +1,11 @@
 import React from 'react'
+import SpinnerMini from '../_components/SpinnerMini'
 
 const loading = () => {
   return (
-    <div>
-        <h1>Loading....</h1>
+    <div className='w-full h-full flex justify-center items-center gap-4'>
+        <SpinnerMini/>
+        <p>Loading cabin data...</p>
     </div>
   )
 }

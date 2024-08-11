@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import bg from "@/public/bg.png";
+import { getCabin } from "./_lib/data-service";
 
 export default function Home() {
   return (

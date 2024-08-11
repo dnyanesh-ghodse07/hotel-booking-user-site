@@ -7,13 +7,13 @@ const Navigation = () => {
 
     <ul className="flex gap-16 items-center">
       <li className="hover:text-accent-400 transition-colors">
-        <Link href="cabins">Cabins</Link>
+        <Link href="/cabins">Cabins</Link>
       </li>
       <li className="hover:text-accent-400 transition-colors">
-        <Link href="account">Account</Link>
+        <Link href="/account">Account</Link>
       </li>
       <li className="hover:text-accent-400 transition-colors">
-        <Link href="about">About</Link>
+        <Link href="/about">About</Link>
       </li>
     </ul>
     </nav>

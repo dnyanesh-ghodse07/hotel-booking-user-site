@@ -6,7 +6,9 @@ export const metadata = {
 
 const Page = () => {
   return (
-    <div>Account Page</div>
+    <h2 className="font-semibold text-2xl text-accent-400 mb-7">
+        Welcome, Dnyanesh Ghodse.
+      </h2>
   )
 }
 
